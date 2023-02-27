@@ -16,6 +16,8 @@ namespace MundoDasClassesParte2
 
             Animal a = new Gato("Cheetara", 4); //Polimorfismo: o gato também é um animal
 
+
+
             ExibeAminal(c); //recebe argumento do tipo Cachorro
             ExibeAminal(g); //recebe argumento do tipo Gato
             ExibeAminal(a); //recebe argumento do tipo Animal
@@ -25,6 +27,8 @@ namespace MundoDasClassesParte2
         {
             Console.WriteLine($"Nome: {animal.Nome}");
             Console.WriteLine($"Idade: {animal.Idade}");
+            Console.WriteLine($"Som emitido: {animal.SomEmitido}");
+            Console.WriteLine($"Locomoção: {animal.Locomocao}");
         }
     }
 }
